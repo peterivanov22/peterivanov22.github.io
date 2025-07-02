@@ -320,7 +320,9 @@ div.flexbox .element {
 
 .wee img{
     width: 100%; /* Default to full width */
-    max-width: 1000px; /* Limit the maximum width to 500px */
+    max-width: 750px; /* Limit the maximum width to 500px */
+    
+
 }
 
 @media screen and (max-width: 900px) {
