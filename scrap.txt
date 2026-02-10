@@ -1,0 +1,15 @@
+
+        <h2>Project Highlights</h2>
+        
+<b>TinyDigit</b><br>
+A GPT-style autoregressive image generation model trained on MNIST, implemented in PyTorch. 
+(<a href="https://github.com/peterivanov22/TinyDigit/" target="_blank">GitHub</a>)<br><br>
+<img src="tinydigit_site.png" alt="TinyDigit demo image"><br><br>
+
+<b>LFOKeys</b><br>
+Audio plugin developed using the JUCE framework (C++). It lets you edit and play various LFO shapes that modulate the volume and EQ of the incoming audio. 
+(<a href="https://github.com/peterivanov22/LFOKeys/" target="_blank">GitHub</a>)<br><br>
+<img src="lfo.png" alt="LFO Composer screenshot"><br>
+
+      <br>
+    

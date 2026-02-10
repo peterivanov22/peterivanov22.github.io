@@ -341,3 +341,10 @@ div.flexbox .element {
 }
 
 
+nav a {
+  margin-right: 15px;
+}
+
+nav {
+  margin-left: 30px;
+}

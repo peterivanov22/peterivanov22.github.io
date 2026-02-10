@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZZLE1XDJR"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1ZZLE1XDJR');
+</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>Blog - Peter Ivanov</title>
+<nav>
+<a href="../index.html">Home</a>
+<a href="./index.html">Blog</a>
+</nav>
+<link rel="stylesheet" href="../stylesheets/styles.css">
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div class="wee">
+<section>
+<h1>Blog</h1>
+<div id="posts"></div>
+</section>
+</div>
+
+<script>
+const posts = [
+  {date: '2025-02-09', title: 'Market Inefficiencies', file: 'market_inefficiencies.html'},
+];
+
+const postsDiv = document.getElementById('posts');
+posts.forEach(post => {
+  postsDiv.innerHTML += `
+    <article style="margin-bottom: 2em;">
+      <h3><a href="${post.file}">${post.title}</a></h3>
+      <small>${post.date}</small>
+    </article>
+  `;
+});
+</script>
+</body>
+</html>
